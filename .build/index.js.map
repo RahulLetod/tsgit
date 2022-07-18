@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": ["../index.ts"],
-  "sourcesContent": ["let data = [1,4,5,6,78,3,22,2,2,2,2];\n\nlet set = new Set(data)\n\nfor(const a  of set){\n  console.log(a);\n}"],
-  "mappings": "AAAA,IAAI,OAAO,CAAC,GAAE,GAAE,GAAE,GAAE,IAAG,GAAE,IAAG,GAAE,GAAE,GAAE;AAElC,IAAI,MAAM,IAAI,IAAI;AAElB,WAAU,KAAM,KAAI;AAClB,UAAQ,IAAI;AAAA;",
+  "sourcesContent": ["let name:string = \"rahul dotel\"\n\nconsole.log(` Hello ${name}`);"],
+  "mappings": "AAAA,IAAI,OAAc;AAElB,QAAQ,IAAI,UAAU;",
   "names": []
 }
